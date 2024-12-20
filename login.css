@@ -1,0 +1,541 @@
+*
+{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0px;
+    padding: 0px;
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+
+   
+}
+i{
+    color: rgb(0, 0, 0);
+}
+.body
+{
+    background-image: url('QovuKPYI.jpeg') no-repeat center center/cover;
+}
+.background1
+{
+    height: 180vh;
+    width: 100%;
+    position: relative;
+
+}
+.background1::before
+{
+    content: " ";
+    z-index: -1;
+    position: absolute;
+    background: url('QovuKPYI.jpeg') no-repeat center center/cover;
+    height: 200vh;
+    width: 100%;
+    
+}
+.container1
+{
+    color: rgb(128, 5, 5);
+    font-size: 40px;
+    display: flex;
+    width: 100vw;
+
+    height: 125px;
+    
+   
+}
+.navbar
+{
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0.548);
+}
+.list
+{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+   
+    width: 33vw;
+    justify-content: center;
+    align-items: center;
+}
+
+#alink
+{
+   
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+
+    margin: 0px 0px 0px 0px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+   width: 100px;
+}
+
+
+
+
+
+
+
+
+#alink:hover
+{
+    transform: scale(1.15);
+    transition-duration: 0.25s
+    
+
+}
+.name
+{
+  
+    width: 33vw;
+    height: 80px;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    font-size: 60px;
+}
+.loginbar
+{
+   height: 80px;
+    margin: 0px 0px 0px 0px;
+  
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 25px;
+    width: 10vw;
+  
+}
+#loginid
+{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+#loginid:hover
+{
+    transform: scale(1.15);
+    transition-duration: 0.25s
+
+}
+.logincontainer
+{
+    height: 80px;
+    display: flex;
+    justify-content: right;
+        align-items: center;
+    width: 33vw;
+   
+
+}
+
+.searchbarcontainer{
+    
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    margin-top: 30px;
+}
+.searchbar
+{
+  
+    height: 8vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+#searchh{
+ 
+    font-size: 30px;
+    
+}
+
+
+
+.searchinput
+{
+    
+    width: 45vw;
+    height: 70px;
+    border-radius: 30px;
+    background-color: rgb(240, 248, 255);
+    padding: 30px;
+    margin-left: 10px;
+
+}
+.searchinput:hover
+{
+    transition-duration: 0.25s;
+    background-color: rgb(233, 235, 236);
+}
+.background2
+{
+    height: 240vh;
+    width: 100%;
+    position: relative;
+ 
+}
+.background2::before
+{
+    content: " ";
+    z-index: -1;
+    position: absolute;
+    background: url('QovuKPYI.jpeg') no-repeat center center/cover;
+    height: 240vh;
+    width: 100%;
+    transform: rotate(180deg);
+}
+.desccontainer
+{
+ 
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    
+}
+.despara
+{
+  
+   color: rgb(243, 233, 233);
+    padding: 70px;
+    font-size: 40px;
+    height: 60vh;
+    width:70vw;
+    background-color: rgb(163, 182, 196);
+    border-radius: 40px;
+    animation: normal;
+  
+    animation: float 2s forwards;
+}
+@keyframes float {
+    from {
+        transform: translateY(300px);
+    }
+    to {
+        transform: translateY(0px);
+    }
+  }
+.flashsale
+{
+    margin-top: 50px;
+    display: flex;
+  
+    justify-content: center;
+    
+}
+#flashsaleid
+{
+    margin:20px 90px 20px 90px;
+}
+.boxsale1
+{
+    
+
+    
+    font-size: 50px;
+    color: aliceblue;
+    border-radius: 100px;
+    height: 20vh;
+    width: 35vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: elongate 1s  infinite; 
+    background-color: rgba(187, 33, 33, 0.973);
+}
+.boxsale2
+{
+   
+    font-size: 50px;
+    color: aliceblue;
+    border-radius: 100px;
+    height: 20vh;
+    width: 35vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: elongate 1s  infinite; 
+    background-color: rgba(187, 33, 33, 0.973);
+}
+
+@keyframes elongate {
+    0% {
+        transform: rotate(1deg);
+      
+    }
+   
+    50% {
+        transform: rotate(-1deg);
+      
+    }
+   
+    100% {
+        transform: rotate(1deg);
+    }
+}
+.titlebox
+{
+ 
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(68, 66, 66) ;
+}
+.whitecontainer
+{
+  
+    height: 200vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    
+ 
+}
+
+.whitebg
+{
+   
+    height: 220vh;
+    width: 100vw;
+    background-color:  #d3e2e2fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
+.itemcontainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  
+
+   
+    height: 200vh;
+    width: 90vw;
+}
+.items
+{
+
+    border-radius: 30px;
+   
+    background-color: #ffffff;
+    height: 550px;
+    width: 300px;
+    margin: 20px 20px 20px 20px;
+    padding: 50px;
+}
+.items:hover
+{
+    transform: scale(0.98);
+    transition-duration: 0.25s;
+}
+.imgitem
+{
+    border-radius: 30px;
+ 
+    height: 200px;
+    width: 200px;
+    box-shadow: 0.5px 1px 0.5px 1px rgb(155, 154, 154);
+}
+.imgitem:hover
+{
+    scale: 1.05;
+    transition-duration: 0.25s;
+}
+.imgdes
+{
+    padding: 10px;
+   
+    height: 200px ;
+    width: 200px;
+}
+.nameitem
+{
+   
+    font-size: 30px;
+}
+.price
+{
+    font-size: 35px;
+   
+}
+  .describe
+  {
+   
+    font-size: 15px;
+   
+  }
+  #imgitem1{
+        background-image: url('61sfbQbmPiL.jpg') ;
+        background-position: center ;
+        background-size: cover;
+  }
+  #imgitem2{
+    background-image: url('F99A41EF-8B47-4D3A-B7C2-D394451E34C2-510x510.jpeg') ;
+    background-position: center ;
+    background-size: cover;
+}
+#imgitem3{
+    background-image: url('keychain.jpeg') ;
+    background-position: center ;
+    background-size: cover;
+}
+#imgitem4{
+    background-image: url('suit.jpeg') ;
+    background-position: center ;
+    background-size: cover;
+}
+#imgitem5{
+    background-image: url('lego.jpeg') ;
+    background-position: center ;
+    background-size: cover;
+}
+#imgitem6{
+    background-image: url('headphone..jpeg') ;
+    background-position: center ;
+    background-size: cover;
+}
+.buy
+{
+   
+   
+    height: 40px;
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: rgb(245, 178, 77);
+    color: aliceblue;
+    font-size: 20px;
+}
+.buy:hover
+{
+    transition-duration: 0.25s;
+    color: rgb(53, 47, 47);
+    background-color: rgb(238, 215, 189);
+}
+
+
+
+
+
+.background3
+{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.background3::before
+{
+    content: " ";
+    z-index: -1;
+    position: absolute;
+    background: url('WqkfY80L.jpeg') no-repeat center center/cover;
+    height: 100vh;
+    width: 100%;
+    
+}
+.membercontainer
+{
+   
+    height: 100vh;
+    width: 60vw;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+.memberlogin
+{
+    
+    height: 90vh;
+    width: 40vw;
+    border-radius: 20px;
+    display: flex;
+    justify-content:center;
+    background-image: url('c0p6-rBC.jpeg') ;
+    background-position: center ;
+    background-size: cover;
+   flex-wrap: wrap;
+}
+.userimage
+{
+   
+    height: 120px;
+    width: 120px;
+    margin: 40px;
+    margin-bottom: 10px;
+    border-radius: 100px;
+    background-image: url('user.jpeg') ;
+    background-position: center ;
+    background-size: cover;
+}
+.details
+{
+    
+    height: 50vh;
+    width: 30vw;
+    margin: 10px;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+#detailsid
+{
+    width: 25vw;
+    height: 10vh;
+    margin: 10px;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(171, 178, 211, 0.664);
+    color: whitesmoke;
+}
+.loginbox
+{
+   
+    height: 50px;
+    width: 10vw;
+    border-radius: 30px;
+    display: flex;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 157, 60);
+}
+#loginlinks
+{
+     text-decoration: none;
+     color: #ffffff;
+}
+.loginbox:hover
+{
+    background-color: white;
+    color: black;
+    transition-duration: 0.25s;
+}
